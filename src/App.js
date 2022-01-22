@@ -1,13 +1,15 @@
 import './App.css';
-import UseRefExample_1 from './components/UseRefExample_1';
-import UseRefExample_2 from './components/UseRefExample_2';
+import UseRefExample1 from './components/UseRefExample1';
+import UseRefExample2 from './components/UseRefExample2';
+import UseRefExample3 from './components/UseRefExample3';
 
 function App() {
   return (
     <div className='conatainer mt-5'>
       <h1>Hello</h1>
-      <UseRefExample_1 />
-      <UseRefExample_2 />
+      <UseRefExample1 />
+      <UseRefExample2 />
+      <UseRefExample3 />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 
-function UseRefExample_2() {
+function UseRefExample2() {
 
     const [name, setName] = useState('')
     const renders = useRef(1)
@@ -18,4 +18,4 @@ function UseRefExample_2() {
     )
 }
 
-export default UseRefExample_2
+export default UseRefExample2

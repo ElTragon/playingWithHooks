@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-function UseRefExample_1() {
+function UseRefExample1() {
   const inputRef = useRef();
   const paraRef = useRef();
   const onSubmit = (e) => {
@@ -31,4 +31,4 @@ function UseRefExample_1() {
   );
 }
 
-export default UseRefExample_1;
+export default UseRefExample1;
