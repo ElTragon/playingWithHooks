@@ -4,6 +4,7 @@ import UseRefExample2 from './components/UseRefExample2';
 import UseRefExample3 from './components/UseRefExample3';
 import UseMemoExample from './components/UseMemoExample';
 import UseCallbackExample from './components/UseCallbackExample';
+import CustomUseFetchHook from './components/CustomUseFetchHook';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <UseRefExample3 />
       <UseMemoExample />
       <UseCallbackExample />
+      <CustomUseFetchHook />
+
     </div>
   );
 }
