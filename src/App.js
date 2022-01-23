@@ -5,7 +5,7 @@ import UseRefExample3 from './components/UseRefExample3';
 import UseMemoExample from './components/UseMemoExample';
 import UseCallbackExample from './components/UseCallbackExample';
 import CustomUseFetchHook from './components/CustomUseFetchHook';
-
+import CustomUseLocalStorageHook from './components/CustomUseLocalStorageHook';
 function App() {
   return (
     <div className='conatainer mt-5'>
@@ -16,6 +16,7 @@ function App() {
       <UseMemoExample />
       <UseCallbackExample />
       <CustomUseFetchHook />
+      <CustomUseLocalStorageHook />
 
     </div>
   );
