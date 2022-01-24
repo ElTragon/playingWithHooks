@@ -23,7 +23,7 @@ function UseMemoExample() {
       <h2 className='my-3'>Square root: {sqrt}</h2>
       <input
         type='number'
-        className='form-control w-25'
+        className='form-control w-25 text-black'
         onChange={(e) => setNumber(e.target.value)}
       />
       <button className='btn btn-primary' onClick={onClick}>

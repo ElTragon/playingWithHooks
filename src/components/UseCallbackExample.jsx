@@ -1,10 +1,11 @@
-import { useState, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 
 function UseCallbackExample() {
   const [tasks, setTasks] = useState([]);
-  const addTask = () => {
+
+  const addTask = useCallback(() => {
     setTasks((prevState) => [...prevState, 'some task again']);
-  };
+  }, [setTasks]);
 
   return (
     <div>
@@ -16,7 +17,7 @@ function UseCallbackExample() {
   );
 }
 
-const Button = ({ addTask }) => {
+const Button = React.memo(({ addTask }) => {
   console.log('button');
   return (
     <div>
@@ -25,6 +26,6 @@ const Button = ({ addTask }) => {
       </button>
     </div>
   );
-};
+});
 
 export default UseCallbackExample;

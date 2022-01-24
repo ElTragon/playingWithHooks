@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import '../index.css';
 
 function UseRefExample1() {
   const inputRef = useRef();
@@ -18,7 +19,7 @@ function UseRefExample1() {
           type='text'
           id='name'
           ref={inputRef}
-          className='form-control mb-2'
+          className='form-control mb-2 text-black'
         />
         <button className='btn btn-primary' type='submit'>
           Submit
